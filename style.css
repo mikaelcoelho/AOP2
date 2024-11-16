@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* 1920 x 1080 - resolução do site
+@media (max-width:1920px){
+
+
+
+}
+
+*/
+
+*{
+  padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
+body{
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+  }
+
+  header{
+    position:fixed;
+    width: 100%;
+    z-index:1;
+  }
+  
+  .navtopo{
+    background-color: #1c34eb;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex; align-items:center; justify-content: center;
+  
+
+  }
+
+ 
+  
+  .navtopo a{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+
+  .navtopo li{
+    display:inline-block;
+    list-style: none;
+  }
+  
+  .navtopo li a{
+    margin-left:25px;
+
+  }
+
+  .navtopo a:hover{ /* ok */
+    background-color: #1CEBDD;
+    color: #1C34EB;
+    
+  }
+
+  .navtopo a.home{
+    color:#ffffff;
+
+  }
+
+  .navtopo .home h3{
+    font-weight: 600;
+    font-size:25px;
+
+  }
+
+  .navtopo a.home:hover{
+    background-color: #1C34EB;
+
+
+  }
+
+
+  .home span{
+    color:#1CEBDD;
+    
+
+  }
+
+
+  
+  /* Conteúdo removido
+
+  .navtopo a.selecionado{
+    background-color: #1CEBDD;
+    color: #1C34EB;
+    border-radius:none;
+    margin:none;
+} 
+  */
+
+  .navpesquisa{
+    position:absolute;
+    top:30%;
+    right:4%;
+    color:#1c34eb88;
+    text-indent:10px;
+    padding-right:150px;
+    display:inline-flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    align-items: center;
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-left:5px;
+    
+  }
+
+  .cotacao1{
+    margin:0 auto;
+    border-color:#000000;
+    border-style:solid;
+    width:1097px;
+    height:350px;
+    border-radius: 10px;
+    position:relative;
+
+
+  }
+
+  .cotacao1 h2{
+    margin-left:20px;
+    margin-top:10px;
+
+
+  }
+
+  .cotacao1 h2 span{
+    position:absolute;
+    top:5px;
+    right:5px;
+    margin-right:20px;
+    font-size:50px;
+    color:rgb(13, 83, 76);
+
+
+  }
+  .cotacao1 h3 span{
+    right:28px;
+    margin-top:20px;
+    margin-right:0px;
+    font-size:20px;
+    font-weight: 400;
+    color:rgb(13, 83, 76);
+    position:absolute;
+
+
+  }
+
+  .cotacao1 img{
+    width:1096px;
+    position:absolute;;
+    bottom:0;
+    z-index: -1;
+
+  }
+
+  .cotacao2{
+    margin:0 auto;
+    border-color:#000000;
+    border-style:solid;
+    width:1097px;
+    height:350px;
+    border-radius: 10px;
+    position:relative;
+
+
+  }
+
+
+
+  .cotacao2 h2{
+  margin-left:20px;
+  margin-top:10px;
+
+
+  }
+
+  .cotacao2 h2 span{
+  position:absolute;
+  top:5px;
+  right:5px;
+  margin-right:20px;
+  font-size:50px;
+  color:rgb(119, 15, 15);
+
+
+  }
+  .cotacao2 h3 span{
+    right:28px;
+    margin-top:20px;
+    margin-right:0px;
+    font-size:20px;
+    font-weight: 400;
+    color:rgb(119, 15, 15);
+    position:absolute;
+
+
+  }
+
+  .cotacao2 img{
+    width:1096px;
+    position:absolute;;
+    bottom:0;
+    z-index: -1;
+
+  }
+
+
+  .textoimg1home{
+    font-size:1.5em;
+    color:white;
+    text-shadow: 0.1em 0.1em 0.3em #000000;
+    position: absolute;
+    font-weight:500;
+    bottom:5%;
+    left:8.5%;
+    text-align: left;
+
+  }
+
+  .textoimg2home{
+    font-size:1.5em;
+    color:white;
+    text-shadow: 0.1em 0.1em 0.3em #000000;
+    position: absolute;
+    font-weight:500;
+    bottom:5%;
+    right:18%;
+    text-align: left;
+
+  }
+
+
+  .sombraimghome1 img{
+    border-radius: 10px;
+    margin:0 auto;
+    position: relative;;
+    z-index: -2;
+
+  }
+
+  .sombraimghome2 img{
+    border-radius: 10px;
+    margin:0 auto;
+    position: relative;;
+    z-index: -2;
+
+
+  }
+
+  .sombraimghome1{
+    box-shadow: inset 0px 0px 100px 50px rgb(0, 0, 0,0.5);
+    width: 641px;
+    height:400px;
+    border-radius: 10px;
+    margin-right: 32px;
+
+  }
+
+  .sombraimghome2{
+    box-shadow: inset 0px 0px 100px 50px rgb(0, 0, 0,0.7);
+    width: 640px;
+    height:400px;
+    border-radius: 10px;
+
+
+  }
+
+
+  .manchetehome{
+    padding-top: 40px;
+    align-items: center;
+    display: flex;
+    position:relative;
+    text-align: center;
+    padding-left:6%;
+    padding-right:6%;
+   
+
+  }
+
+  .manchetemundobrasil{
+    padding-top: 0px;
+    align-items: center;
+    display: flex;
+    position:relative;
+    text-align: center;
+    padding-left:0%;
+    padding-right:0%;
+    
+
+  }
+
+  .manchetemundobrasil2{
+    padding-top: 30px;
+    align-items: center;
+    display: flex;
+    position:relative;
+    text-align: center;
+    padding-left:10.5%;
+    padding-right:9.5%;
+
+  }
+
+  .sombraimgmundo1 img{
+    border-radius: 10px;
+    margin:0 auto;
+    position: relative;;
+    z-index: -2;
+
+
+  }
+
+  .sombraimgmundo2 img{
+    border-radius: 10px;
+    margin:0 auto;
+    position: relative;;
+    z-index: -2;
+
+  }
+
+  .sombraimgmundo3 img{
+    border-radius: 10px;
+    margin:0 auto;
+    position: relative;;
+    z-index: -2;
+
+
+  }
+
+  .sombraimgbrasil1 img{
+    border-radius: 10px;
+    margin:0 auto;
+    position: relative;;
+    z-index: -2;
+
+
+
+
+  }
+
+  .sombraimgbrasil2 img{
+    border-radius: 10px;
+    margin:0 auto;
+    position: relative;;
+    z-index: -2;
+
+  }
+
+  .sombraimgbrasil3 img{
+    border-radius: 10px;
+    margin:0 auto;
+    position: relative;;
+    z-index: -2;
+
+
+  }
+
+  .textoimg1mundo{
+    font-size:1.6em;
+    color:white;
+    text-shadow: 0.1em 0.1em 0.3em #000000;
+    position: absolute;
+    font-weight:500;
+    bottom:5%;
+    left:12%;
+    text-align: left;
+
+  }
+
+ 
+
+  .manchetemundobrasil2 img{
+    border-radius: 10px;
+    margin: 0 auto;
+    width:585px;
+
+
+  }
+
+
+
+
+  .textoimg2mundo{
+    font-size:1.4em;
+    color:white;
+    text-shadow: 0.1em 0.1em 0.3em #000000;
+    position: absolute;
+    font-weight:500;
+    bottom:5%;
+    left:12%;
+    text-align: left;
+
+  }
+
+  .textoimg3mundo{
+    font-size:1.4em;
+    color:white;
+    text-shadow: 0.1em 0.1em 0.3em #000000;
+    position: absolute;
+    font-weight:500;
+    bottom:5%;
+    right:21%;
+    text-align: left;
+
+  }
+  
+  
+
+
+  .sombraimgmundo1{
+    box-shadow: inset 0px 0px 400px 50px rgb(0, 0, 0,0.5);
+    width: 1201px;
+    height:301px;
+    border-radius: 10px;
+    margin:0 auto;
+    position:relative;
+
+
+  }
+
+  .sombraimgmundo2{
+    box-shadow: inset 0px 0px 200px 10px rgb(0, 0, 0,0.7);
+    width: 585px;
+    height:293px;
+    border-radius: 10px;
+    position: relative;
+    margin-right:32.2px;
+
+
+  }
+
+  .sombraimgmundo3{
+    box-shadow: inset 0px 0px 200px 10px rgb(0, 0, 0,0.7);
+    width: 585px;
+    height:293px;
+    border-radius: 10px;
+    position: relative;
+
+
+  }
+
+  .sombraimgbrasil1{
+    box-shadow: inset 0px 0px 400px 50px rgb(0, 0, 0,0.5);
+    width: 1200px;
+    height:300px;
+    border-radius: 10px;
+    margin:0 auto;
+    position:relative;
+
+
+  }
+
+  .sombraimgbrasil2{
+    box-shadow: inset 0px 0px 400px 50px rgb(0, 0, 0,0.5);
+    width: 585px;
+    height:293px;
+    border-radius: 10px;
+    position:relative;
+    margin-right:32.2px;
+
+
+  }
+
+  .sombraimgbrasil3{
+    box-shadow: inset 0px 0px 400px 50px rgb(0, 0, 0,0.5);
+    width: 585px;
+    height:293px;
+    border-radius: 10px;
+    position:relative;
+
+
+  }
+
+
+
+  .textoimg1brasil{
+      font-size:1.6em;
+      color:white;
+      text-shadow: 0.1em 0.1em 0.3em #000000;
+      position: absolute;
+      font-weight:500;
+      bottom:5%;
+      left:12%;
+      text-align: left;
+
+  }
+
+  .textoimg2brasil{
+    font-size:1.6em;
+    color:white;
+    text-shadow: 0.1em 0.1em 0.3em #000000;
+    position: absolute;
+    font-weight:500;
+    bottom:5%;
+    left:12%;
+    text-align: left;
+
+}
+
+.textoimg3brasil{
+  font-size:1.6em;
+  color:white;
+  text-shadow: 0.1em 0.1em 0.3em #000000;
+  position: absolute;
+  font-weight:500;
+  bottom:5%;
+  right:25.5%;
+  text-align: left;
+
+}
+
+
+  .outranoticia{
+    margin-left:10.5%;
+    margin-right:30%;
+    display:flex;
+    margin-bottom:40px;
+    align-items: center;
+  }
+
+  .outranoticia img{
+    width:300px;
+    height:200px;
+    margin-right:40px;
+    border-radius: 10px;
+
+  }
+
+  .outranoticia a{
+    text-decoration: none;
+    color:black;
+
+  }
+
+  .outranoticia h3{
+    font-size:1.4em;
+  }
+
+  .vermais{
+    margin-right:10.5%;
+    text-align: right;
+    margin-top:0px;
+  }
+
+  .vermais input{
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family:Rubik;
+    background-color:#1C34EB;
+    border-style:none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding:10px;
+
+  }
+
+  .vermais input:hover{
+    background-color:#1628b0;
+    color:#ffffff;
+
+  }
+
+
+
+  .titulotexto{
+    align-items: center;
+
+  }
+
+  .texto{
+    margin-top:30px;
+    text-indent: 0px;
+    padding-left:7%;
+    padding-right:7%;
+    margin-bottom: 30px;
+    
+
+  }
+
+  .texto h1{
+    text-indent:0;
+    color:#1C34EB;
+    vertical-align:middle;
+  }
+
+  .texto img{
+    width:50px;
+    color:#1C34EB;
+    padding-right:5px;
+    padding-bottom:0px;
+    position:relative;
+    top:10px;
+  
+  }
+
+/* Itens descartados
+  .itemchecklist{
+    
+    
+  }
+
+  .itemchecklist li{
+    list-style-type: none;
+   
+
+
+  }
+
+  .itemchecklist img{
+    vertical-align: center;
+  }
+*/
+
+  .categoria{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 25%;
+    padding-right:25%;
+  
+
+  }
+
+
+  .categoriaitem{
+    border-radius: 5px;
+    padding:20px;
+    border-style: solid;
+    border-width: 3px;
+    color:#1C34EB;
+    text-align: center;
+
+  }
+
+  .categoriaitem img{
+    height:64px;
+
+
+  }
+
+  .contatos{
+    width:800px;
+    margin: 0 auto;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:#1C34EB;
+    padding:10px;
+
+
+  }
+
+
+  Footer{
+    position:sticky;
+    background-color:#1C34EB;
+    color:#ffffff;
+    text-align: center;
+    width:100%;
+
+
+  }
+
+  Footer a{
+    color:#1CEBDD;
+    font-weight: bold;
+    text-decoration: none;
+
+  }
+
+
+  .redesocial{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-left: 16%;
+    margin-right:18%;
+    align-items: center;
+    height:80px;
+  }
+
+  .redesocial h4{
+    padding-right:40px;
+
+  }
+
+  .redesocial img{
+    height:32px;
+    padding-right:40px;
+    
+
+  }
+
+  .linha{
+    border-color: #ffffff;
+    border-radius: 5px;
+    border-width:2px;
+    border-style: solid;
+    height:45px;
+    margin-right:40px;
+
+  }
